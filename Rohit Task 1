@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit | Web Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <nav>
+        <h2 class="logo">DevRohit.</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="content">
+        <h1>Rohit <span>Gour</span></h1>
+        <h3>I'm a Student</h3>
+        <p>
+            I am learning web development and building modern,
+            responsive websites using HTML and CSS.
+        </p>
+
+        <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="image">
+        <img src="rohit.jpg" alt="Profile">
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Creating webpage structure.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Designing beautiful websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Adding interactivity to websites.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A simple personal portfolio.</p>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>Responsive landing page design.</p>
+        </div>
+
+        <div class="card">
+            <h3>Calculator UI</h3>
+            <p>Basic calculator interface.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Email: rohitgour6202@gmail.com</p>
+    <p>Phone: +91 6202575553</p>
+</section>
+
+<footer>
+    <p>© 2026 Rohit | Web Developer</p>
+</footer>
+
+</body>
+</html>
